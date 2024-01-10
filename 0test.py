@@ -7,4 +7,6 @@ def hello():
 
 
 hello()
+
+print("hey")
    
