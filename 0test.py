@@ -127,6 +127,88 @@
 # print(a[2:5])
 
 
+#python collectors
+
+# List, tuple, dictionary, set
+
+#list - mutable- can change
+# list_var = [1,3,6,8,9, "a"]
+# print(type(list_var))
+# print((list_var))
+
+# #can change using indexing
+# list_var[0] = 2
+# list_var.append("c")
+# print((list_var))
+
+# #tuple
+# tup_var = (1,3,6,8,9,"b")
+# print(type(tup_var))
+# print((tup_var))
+
+#immutable - can't change
+# tup_var[0] = 1
+# print(tup_var)
+# tuple object does not support item assignment, append, edit and update
+
+
+
+
+#set - not ordered, not support item assignment
+# stu_marks = {78, 94, 67,1 ,2,4}
+# print(type(stu_marks))
+# print( (stu_marks))
+
+
+# #immutable
+# # stu_marks[0] = 1
+# # print(stu_marks)
+
+# #to add
+# stu_marks.add("asd")
+
+
+#dictionary
+# dic_var = {"name":"John", "age":30, "city":"New York"}
+# print(type(dic_var))
+# print((dic_var))
+
+
+# # making tuple mutable
+# std = ('asd',1,2,3,4)
+# print(type(std))
+# print("This is tuple",(std))
+
+
+# a = list(std)
+# print(type(a))
+# print("This is list",(a))
+# a[0] = "sdsf"
+
+# std = tuple(a)
+# print(type(std))
+# print("This is tuple",(std))
+
+# b = ("asdf",)
+
+# #adding new tuple
+# std += b
+# print("new tuple :", std)
+
+#unpacking in tuple
+
+# xyz = ("aaer", 1,2,4)
+
+# (a,b,c,*d) = xyz
+
+# print(a)
+# print(b)
+# print(c)
+# print(d)
+
+
+
+
 
 
 
